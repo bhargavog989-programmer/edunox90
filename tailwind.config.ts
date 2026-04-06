@@ -16,7 +16,7 @@ export default {
       screens: { "2xl": "1400px" },
     },
     extend: {
-      /* ── EduOnx Typography ────────────────────────────────────
+      /* ── Eduonx Typography ────────────────────────────────────
          Primary UI: Inter  |  Display/Hero: Sora  |  Reading: IBM Plex Serif
       ────────────────────────────────────────────────────────── */
       fontFamily: {
@@ -26,7 +26,7 @@ export default {
         mono: ['"JetBrains Mono"', '"Fira Code"', 'monospace'],
       },
 
-      /* ── EduOnx Color System ──────────────────────────────────
+      /* ── Eduonx Color System ──────────────────────────────────
          Background → #F3F4F6  Surface → #FFFFFF
          Primary (Azure) → #1D4ED8  CTA (Amber) → #F97316
          Success (Green) → #10B981  Error (Red) → #EF4444

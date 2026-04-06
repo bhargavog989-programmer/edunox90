@@ -16,13 +16,13 @@ const HeroSection = () => (
         <div className="space-y-8">
           <div className="inline-flex items-center gap-2 bg-navy/80 border border-interface/30 rounded-full px-4 py-1.5 text-xs font-medium text-soft">
             <span className="h-1.5 w-1.5 rounded-full bg-highlight animate-pulse" />
-            AI-Powered Learning Platform
+            AI-Powered Learning Platform for Students
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight min-h-[140px] md:min-h-[160px] lg:min-h-[180px]">
             <TextType
-              text="Your AI Study Companion for Smarter Learning"
-              typingSpeed={75}
+              text="Study Smarter with AI Tutoring and Personalized Learning"
+              typingSpeed={65}
               pauseDuration={3000}
               showCursor
               cursorCharacter="_"
@@ -34,7 +34,7 @@ const HeroSection = () => (
           </h1>
 
           <p className="text-soft text-lg md:text-xl leading-relaxed max-w-lg">
-            Solve homework instantly. Study with AI guidance. Track progress, compete with friends, and build daily study habits.
+            Get instant homework help, personalized AI tutoring, adaptive quizzes, and progress tracking. Build study habits, compete with friends, and achieve your academic goals faster.
           </p>
 
           <div className="flex flex-wrap gap-4">

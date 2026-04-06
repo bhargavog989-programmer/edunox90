@@ -1,3 +1,10 @@
+# Eduonx - AI-Powered Learning Platform
+# https://eduonx.com
+
+User-agent: *
+Allow: /
+
+# Crawlers for social media previews
 User-agent: Googlebot
 Allow: /
 
@@ -10,5 +17,14 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
+User-agent: LinkedInBot
 Allow: /
+
+# Sitemap
+Sitemap: https://eduonx.com/sitemap.xml
+
+# Disallow private/auth pages from indexing
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /settings
+Disallow: /onboarding

@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { db } from "@/lib/firebase";
 import { doc, updateDoc } from "firebase/firestore";
 
-import eduonxLogo from "@/assets/eduonx-logo.png";
+import eduonxLogo from "@/assets/eduonx-logo-new.png";
 
 const goals = [
   { id: "homework", icon: Zap, label: "Get homework help", desc: "Solve problems faster with AI" },
@@ -64,7 +64,7 @@ const LearningGoals = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <div className="border-b border-border px-6 py-4">
         <div className="flex items-center shrink-0 w-full justify-center lg:justify-start">
-          <img src={eduonxLogo} alt="EduOnx Logo" className="h-[180px] w-auto max-w-full lg:max-w-[250px] object-contain" />
+          <img src={eduonxLogo} alt="Eduonx Logo" className="h-14 w-auto object-contain" />
         </div>
       </div>
 

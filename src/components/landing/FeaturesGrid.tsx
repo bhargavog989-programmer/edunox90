@@ -5,33 +5,33 @@ import { MagicBento } from "@/components/ui/MagicBento";
 const features = [
   {
     icon: Brain,
-    title: "AI Homework Solver",
-    description: "Get step-by-step solutions and explanations for any problem, powered by advanced AI models.",
+    title: "AI Homework Helper",
+    description: "Get instant step-by-step solutions with detailed explanations. Understand concepts, not just answers.",
   },
   {
     icon: Zap,
-    title: "Smart Quiz Engine",
-    description: "Auto-generated quizzes that adapt to your knowledge gaps and strengthen weak areas.",
+    title: "Adaptive Quiz Generator",
+    description: "Auto-generated quizzes that identify knowledge gaps and reinforce weak areas with spaced repetition.",
   },
   {
     icon: Timer,
-    title: "Study Timer & Streaks",
-    description: "Build consistent habits with timed study sessions and motivating daily streaks.",
+    title: "Study Timer with Streaks",
+    description: "Build consistent study habits with Pomodoro-style timers, daily goals, and motivating streaks.",
   },
   {
     icon: BarChart3,
-    title: "Progress Tracking",
-    description: "Visualize your improvement over time with detailed analytics and mastery indicators.",
+    title: "Learning Analytics",
+    description: "Track your progress with detailed insights, mastery levels, and performance trends over time.",
   },
   {
     icon: Upload,
-    title: "Material Upload Learning",
-    description: "Upload notes, PDFs, or textbooks — AI reads and creates study material from your content.",
+    title: "Document-Based Learning",
+    description: "Upload your notes, textbooks, or PDFs. AI creates summaries, flashcards, and quizzes from your content.",
   },
   {
     icon: Compass,
-    title: "Personalized Recommendations",
-    description: "AI analyzes your performance to suggest exactly what to study next for maximum growth.",
+    title: "AI Study Recommendations",
+    description: "Get personalized suggestions on what to study next based on your performance and learning goals.",
   },
 ];
 
@@ -39,13 +39,13 @@ const FeaturesGrid = () => (
   <section id="features" className="py-24 bg-background">
     <div className="container max-w-7xl mx-auto px-4">
       <div className="text-center max-w-2xl mx-auto mb-16">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Core Features</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Powerful Learning Features</p>
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 tracking-tight">
-          Everything you need to study smarter
+          Everything You Need to Excel Academically
         </h2>
         <div className="text-muted-foreground text-lg h-16">
           <DecryptedText 
-            text="A complete toolkit designed to transform how you learn, practice, and grow." 
+            text="AI-powered tools for homework help, quiz generation, progress tracking, and personalized learning." 
             animateOn="view" 
             revealDirection="start" 
             sequential 

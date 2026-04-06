@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Home, Sparkles, Info, BookOpen } from "lucide-react";
 import { NavBar } from "@/components/ui/tubelight-navbar";
-import eduonxLogo from "@/assets/eduonx-logo.png";
+import eduonxLogo from "@/assets/eduonx-logo-new.png";
 
 const navItems = [
   { name: 'Home', url: '/', icon: Home },
@@ -17,8 +17,8 @@ const Navbar = () => {
           <Link to="/" className="ml-4 md:ml-8 lg:ml-12 shrink-0 z-10 pointer-events-auto block transition-transform hover:opacity-90 active:scale-95 cursor-pointer">
             <img 
               src={eduonxLogo} 
-              alt="EduOnx Logo" 
-              className="h-[100px] md:h-[140px] lg:h-[180px] w-auto max-w-[360px] md:max-w-[480px] object-contain object-left" 
+              alt="Eduonx Logo" 
+              className="h-12 md:h-14 lg:h-16 w-auto object-contain" 
             />
           </Link>
         </div>

@@ -97,7 +97,7 @@ const TopicSelection = () => {
                     </div>
                   </div>
                 </div>
-                {/* ✅ EduOnx: CTA = Amber */}
+                {/* Eduonx: CTA = Amber */}
                 <Link
                   to={`/quiz/${t.id}`}
                   state={{ topicTitle: t.title, subjectName: t.subjectName }}

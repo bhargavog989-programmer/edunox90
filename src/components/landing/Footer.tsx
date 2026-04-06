@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 
-import eduonxLogo from "@/assets/eduonx-logo.png";
+import eduonxLogo from "@/assets/eduonx-logo-new.png";
 
 const footerLinks = {
   Platform: ["AI Tutor", "Quiz Engine", "Progress Tracker", "Study Timer"],
@@ -21,7 +21,7 @@ const Footer = () => (
         {/* Brand */}
         <div className="col-span-2 md:col-span-1">
           <Link to="/" className="flex items-center mb-4 w-max shrink-0 max-w-full">
-            <img src={eduonxLogo} alt="EduOnx Logo" className="h-[200px] md:h-[260px] w-auto max-w-[300px] md:max-w-[400px] brightness-0 invert object-contain" />
+            <img src={eduonxLogo} alt="Eduonx Logo" className="h-24 md:h-28 w-auto max-w-[200px] brightness-0 invert object-contain" />
           </Link>
           <p className="text-xs text-soft leading-relaxed">
             AI-powered learning platform for smarter studying.
@@ -45,7 +45,7 @@ const Footer = () => (
 
       <div className="border-t border-interface/10 mt-12 pt-8 text-center">
         <p className="text-xs text-soft/50">
-          © 2026 EduOnx. All rights reserved.
+          © 2026 Eduonx. All rights reserved.
         </p>
       </div>
     </div>

@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import { useDeepFocus } from "@/hooks/useDeepFocus";
 
-import eduonxLogo from "@/assets/eduonx-logo.png";
+import eduonxLogo from "@/assets/eduonx-logo-new.png";
 
 const sidebarLinks = [
   { to: "/dashboard",       icon: LayoutDashboard,      label: "Dashboard" },
@@ -44,7 +44,7 @@ const AppLayout = () => {
         <aside className="hidden md:flex w-64 flex-col border-r border-border bg-card fixed inset-y-0 left-0 z-30">
           <div className="px-6 py-8 border-b border-border flex-shrink-0">
             <Link to="/" className="flex items-center shrink-0 w-full justify-start">
-              <img src={eduonxLogo} alt="EduOnx Logo" className="h-[56px] w-auto max-w-[180px] object-contain object-left" />
+              <img src={eduonxLogo} alt="Eduonx Logo" className="h-[56px] w-auto max-w-[180px] object-contain object-left" />
             </Link>
           </div>
 

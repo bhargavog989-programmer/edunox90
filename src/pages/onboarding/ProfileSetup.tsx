@@ -8,7 +8,7 @@ import { toast } from "sonner";
 import { db } from "@/lib/firebase";
 import { doc, setDoc, updateDoc } from "firebase/firestore";
 
-import eduonxLogo from "@/assets/eduonx-logo.png";
+import eduonxLogo from "@/assets/eduonx-logo-new.png";
 
 const learnerTypes = ["Individual Learner", "School / Institution"];
 const grades = ["Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12", "College"];
@@ -75,7 +75,7 @@ const ProfileSetup = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <div className="border-b border-border px-6 py-4">
         <div className="flex items-center shrink-0 w-full justify-center lg:justify-start">
-          <img src={eduonxLogo} alt="EduOnx Logo" className="h-[180px] w-auto max-w-full lg:max-w-[250px] object-contain" />
+          <img src={eduonxLogo} alt="Eduonx Logo" className="h-14 w-auto object-contain" />
         </div>
       </div>
 

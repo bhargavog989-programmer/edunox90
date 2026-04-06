@@ -8,7 +8,7 @@ import { toast } from "sonner";
 import { auth } from "@/lib/firebase";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
-import eduonxLogo from "@/assets/eduonx-logo.png";
+import eduonxLogo from "@/assets/eduonx-logo-new.png";
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -61,7 +61,7 @@ const Signup = () => {
 
         <div className="relative z-10">
           <Link to="/" className="flex items-center shrink-0 w-full justify-center lg:justify-start">
-            <img src={eduonxLogo} alt="EduOnx Logo" className="h-[280px] w-auto max-w-full brightness-0 invert opacity-80 object-contain" />
+            <img src={eduonxLogo} alt="Eduonx Logo" className="h-20 w-auto brightness-0 invert opacity-90 object-contain" />
           </Link>
         </div>
 
@@ -88,7 +88,7 @@ const Signup = () => {
         </div>
 
         <div className="relative z-10 text-xs text-soft">
-          © 2026 EduOnx. All rights reserved.
+          © 2026 Eduonx. All rights reserved.
         </div>
       </div>
 
@@ -97,7 +97,7 @@ const Signup = () => {
         <div className="w-full max-w-md space-y-8">
 
           <div className="lg:hidden flex items-center justify-center mb-8 shrink-0 w-full">
-            <img src={eduonxLogo} alt="EduOnx Logo" className="h-[240px] w-auto max-w-full object-contain" />
+            <img src={eduonxLogo} alt="Eduonx Logo" className="h-16 w-auto object-contain" />
           </div>
 
           <div>
@@ -192,7 +192,7 @@ const Signup = () => {
               </div>
             </div>
 
-            {/* ✅ EduOnx: CTA button uses Amber */}
+            {/* Eduonx: CTA button uses Amber */}
             <Button
               type="submit"
               className="w-full h-11 bg-cta text-cta-foreground hover:bg-cta/90 font-semibold gap-2"
